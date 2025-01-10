@@ -1,11 +1,8 @@
-import { Button } from "@/components/ui/button";
-
-export default function Home() {
+import { UserButton } from "@clerk/nextjs";
+export default function SetupPage() {
   return (
     <div className="p-4">
-      <p>Admin Dashboard</p>
-
-      <Button size="lg">Klika</Button>
+      <UserButton />
     </div>
   );
 }
