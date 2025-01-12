@@ -16,6 +16,8 @@ function MainNav({ className, ...props }: React.HTMLAttributes<HTMLElement>) {
     },
   ];
 
+  console.log("props", props);
+
   return (
     <nav className={cn("flex items-center space-x-4 lg:space-x-6", className)}>
       {routes.map((route) => (
